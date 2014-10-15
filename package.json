@@ -1,0 +1,24 @@
+{
+  "name": "node-training-setup",
+  "version": "0.0.0",
+  "description": "Node Training Setup Validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp mocha"
+  },
+  "author": "Nick Nance",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "chai": "~1.9.2",
+    "sinon": "~1.10.3",
+    "jshint-stylish": "~1.0.0",
+    "gulp-mocha": "~1.1.1",
+    "gulp-jshint": "~1.8.5",
+    "gulp": "~3.8.8",
+    "mocha": "~1.21.5",
+    "sinon-chai": "~2.6.0"
+  },
+  "dependencies": {
+    "redis": "~0.12.1"
+  }
+}
